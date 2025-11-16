@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* src/datagrid-overrides.css */
+.MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  color: #2b2b2b !important;
+  /* background-color: #a2c0fb72 !important; */
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader .MuiDataGrid-columnHeaderTitle {
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+}
+
+/* optional: add a subtle bottom border */
+.MuiDataGrid-root .MuiDataGrid-columnHeaders {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+.css-eb1nz7-MuiDataGrid-root
+  .MuiDataGrid-row--borderBottom
+  .MuiDataGrid-columnHeader {
+  background-color: #b1f98a46 !important;
+}
